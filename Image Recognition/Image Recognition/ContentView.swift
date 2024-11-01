@@ -8,12 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let images:[String] = ["1"]
+    @State private var predictions: [String] = []
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Image(systemName: "apple")
+            
+
+            HStack {
+                Button(action: {
+                    
+                }, label: {
+                    Text("Change Image")
+                })
+                .buttonStyle(.borderedProminent)
+                
+                Spacer()
+                Button(action: {
+                    
+                }, label: {
+                    Text("Predict")
+                })
+                .buttonStyle(.borderedProminent)
+                
+            }
+            
+            List {
+                ForEach(predictions, id: \.self ) { item in
+                    Text(item)
+                }
+            }
+            
+            
         }
         .padding()
     }

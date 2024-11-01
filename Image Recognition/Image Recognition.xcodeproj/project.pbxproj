@@ -11,6 +11,7 @@
 		B2E4983B2CD518C9004D7110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E4983A2CD518C9004D7110 /* ContentView.swift */; };
 		B2E4983D2CD518CA004D7110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E4983C2CD518CA004D7110 /* Assets.xcassets */; };
 		B2E498402CD518CA004D7110 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E4983F2CD518CA004D7110 /* Preview Assets.xcassets */; };
+		B2E498472CD51DE3004D7110 /* CatsVsDogsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B2E498462CD51DE3004D7110 /* CatsVsDogsClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B2E4983A2CD518C9004D7110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2E4983C2CD518CA004D7110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E4983F2CD518CA004D7110 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2E498462CD51DE3004D7110 /* CatsVsDogsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatsVsDogsClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		B2E4982C2CD518C9004D7110 = {
 			isa = PBXGroup;
 			children = (
+				B2E498462CD51DE3004D7110 /* CatsVsDogsClassifier.mlmodel */,
 				B2E498372CD518C9004D7110 /* Image Recognition */,
 				B2E498362CD518C9004D7110 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E498472CD51DE3004D7110 /* CatsVsDogsClassifier.mlmodel in Sources */,
 				B2E4983B2CD518C9004D7110 /* ContentView.swift in Sources */,
 				B2E498392CD518C9004D7110 /* Image_RecognitionApp.swift in Sources */,
 			);
